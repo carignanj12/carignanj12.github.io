@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pine Tree Analytics — Joe, BI Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-logo">Pine Tree <em>Analytics</em></span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Business Intelligence Analyst</p>
+      <h1 class="hero-name">Joe<br /><em>Carignan</em></h1>
+      <p class="hero-sub">
+        I turn messy data into clear decisions —<br />
+        through BI infrastructure, reporting systems,<br />
+        and analytical storytelling.
+      </p>
+      <a href="#projects" class="btn-primary">See my work</a>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="chart-bars">
+        <div class="bar" style="--h: 40%; --delay: 0s;"></div>
+        <div class="bar" style="--h: 65%; --delay: 0.1s;"></div>
+        <div class="bar" style="--h: 50%; --delay: 0.2s;"></div>
+        <div class="bar" style="--h: 80%; --delay: 0.3s;"></div>
+        <div class="bar" style="--h: 55%; --delay: 0.4s;"></div>
+        <div class="bar" style="--h: 90%; --delay: 0.5s;"></div>
+        <div class="bar" style="--h: 70%; --delay: 0.6s;"></div>
+        <div class="bar" style="--h: 95%; --delay: 0.7s;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div class="section-label">About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Analytical by nature,<br /><em>strategic by practice.</em></h2>
+          <p>
+            I'm a BI Analyst based in Portland, Maine, currently at Auto Europe where I build and maintain the reporting infrastructure that partners across four continents rely on. My work spans DAX modeling, Power BI semantic layers, automated report delivery, and data pipeline architecture.
+          </p>
+          <p>
+            I'm also pursuing a Master's in Analytics at Northeastern University's Roux Institute, where I focus on statistics, machine learning, and R — the academic side of a career I've been building since casino analytics in Colorado.
+          </p>
+        </div>
+        <div class="about-skills">
+          <h3>Tools &amp; Technologies</h3>
+          <ul class="skill-list">
+            <li>Power BI &amp; DAX</li>
+            <li>Power Automate</li>
+            <li>SQL</li>
+            <li>R / RStudio</li>
+            <li>Tabular Editor</li>
+            <li>VertiPAQ Analyzer</li>
+            <li>Microsoft Fabric</li>
+            <li>Dataflows Gen1</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="projects-inner">
+      <div class="section-label">Projects</div>
+      <h2>Selected Work</h2>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <div class="project-number">01</div>
+          <div class="project-body">
+            <h3>Partner Reporting Automation</h3>
+            <p>Built an end-to-end automated reporting system delivering paginated Power BI reports to global partners across AU/NZ, EMEA, and NAM regions via Power Automate flows, including SFTP delivery and dynamic date parameterization.</p>
+            <div class="project-tags">
+              <span>Power BI</span>
+              <span>Power Automate</span>
+              <span>DAX</span>
+              <span>SFTP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">02</div>
+          <div class="project-body">
+            <h3>BI Infrastructure Migration</h3>
+            <p>Redesigned the Power BI data architecture by migrating ODBC-sourced tables into a Dataflow Gen1 framework, resolving persistent memory crash issues in Power BI Desktop and establishing dev/prod workspace separation with deployment pipelines.</p>
+            <div class="project-tags">
+              <span>Power BI</span>
+              <span>Dataflows</span>
+              <span>Architecture</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">03</div>
+          <div class="project-body">
+            <h3>Spotify Track Analysis</h3>
+            <p>Academic group project analyzing a Spotify tracks dataset using R — covering exploratory data analysis, hypothesis testing (t-tests, proportion z-tests), and regression modeling to surface patterns in audio features and popularity.</p>
+            <div class="project-tags">
+              <span>R</span>
+              <span>Statistics</span>
+              <span>EDA</span>
+              <span>Regression</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">04</div>
+          <div class="project-body">
+            <h3>Semantic Model Optimization</h3>
+            <p>Audited and optimized a Power BI semantic model using VertiPAQ Analyzer and Tabular Editor, identifying high-cardinality columns with poor compression and implementing structural changes to improve query performance and model size.</p>
+            <div class="project-tags">
+              <span>VertiPAQ</span>
+              <span>Tabular Editor</span>
+              <span>Power BI</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="section-label">Contact</div>
+      <h2>Let's connect.</h2>
+      <p>I'm always open to interesting conversations about data, analytics infrastructure, or new opportunities.</p>
+      <div class="contact-links">
+        <a href="mailto:jcarignan@pinetreeanalytics.com" class="contact-link">jcarignan@pinetreeanalytics.com</a>
+        <a href="https://linkedin.com/in/joseph-carignan" class="contact-link" target="_blank">LinkedIn</a>
+        <a href="https://github.com/carignanj12" class="contact-link" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Pine Tree Analytics. Built by hand in Maine.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
